@@ -1,10 +1,10 @@
-# PROGRAM NEW TABLE PAJAK
+# PROGRAM TAC AUTO RECLASS
 
 ## Overview
 
 Program New Table Pajak
 
-   Program : ZFI05R0021
+   Program : ZFI02R0037
    Author  : Welly Sugiarto  
    Date    : 21.07.2023  
    Version : 1.0.0

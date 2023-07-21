@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG TAC Auto Reclass</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFI02FG0035F01</SOBJ_NAME>
+    <SOBJ_NAME>LZFI02FG0035TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFI02FG0035</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFIFM_GET_TIME_2</FUNCNAME>
+     <SHORT_TEXT>FM to Get Time</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_DATE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SY-DATUM</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EX_TIME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>C</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EX_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP system field: Current date of application server</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_TIME</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFIFM_IB_TAC_AUTO_RECLASS</FUNCNAME>
+     <SHORT_TEXT>FM Inbound TAC Auto Reclass</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_TAC</PARAMETER>
+       <TYP>ZFITT00192</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_TAC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type Inbound Structure TAC Auto Reclass</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFIFM_OB_TAC_AUTO_RECLASS</FUNCNAME>
+     <SHORT_TEXT>FM Outbond TAC Auto Reclass</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_TAC</PARAMETER>
+       <DBSTRUCT>ZFIDT00318</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_TAC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type Structure TAC Auto Reclass Outbond</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

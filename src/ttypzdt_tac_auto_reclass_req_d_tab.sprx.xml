@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZDT_TAC_AUTO_RECLASS_REQ_D_TAB</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZDT_TAC_AUTO_RECLASS_REQ</OBJ_NAME_M>
+     <HASH_ID>D90B19F075707E943511015EB1A96A2CD2E57ADD</HASH_ID>
+     <ID>TableOf&lt;type&gt; data &lt;element&gt; data &lt;type&gt; DT_TAC_Auto_Reclass_Req http://adira.co.id/ZFIFM_OB_TAC_AUTO_RECLASS http://adira.co.id/ZFIFM_OB_TAC_AUTO_RECLASS</ID>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>data</IFR_NAME>
+     <IFR_NSPCE>http://adira.co.id/ZFIFM_OB_TAC_AUTO_RECLASS</IFR_NSPCE>
+     <IFR_GNSPCE>http://adira.co.id/ZFIFM_OB_TAC_AUTO_RECLASS</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZDT_TAC_AUTO_RECLASS_REQ_D_TAB</OBJ_NAME>
+     <OBJECT1>TTYP</OBJECT1>
+     <OBJ_NAME1>ZDT_TAC_AUTO_RECLASS_REQ_D_TAB</OBJ_NAME1>
+     <OBJECT2>TTYP</OBJECT2>
+     <OBJ_NAME2>ZDT_TAC_AUTO_RECLASS_REQ_D_TAB</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZDT_TAC_AUTO_RECLASS_REQ_DATA</OBJ_NAME_R>
+     <ID>TableOf&lt;type&gt; data &lt;element&gt; data &lt;type&gt; DT_TAC_Auto_Reclass_Req http://adira.co.id/ZFIFM_OB_TAC_AUTO_RECLASS http://adira.co.id/ZFIFM_OB_TAC_AUTO_RECLASS</ID>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>data</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TTYP</R3_TYPE>
+     <R3_NAME>ZDT_TAC_AUTO_RECLASS_REQ_D_TAB</R3_NAME>
+     <R3_TEXT>Proxy Table Type (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

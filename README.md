@@ -4,7 +4,7 @@
 
 Program TAC Auto Reclass
 
-   Program : ZFI02R0037
+   Program : ZFI02R0037  
    Author  : Welly Sugiarto  
    Date    : 21.07.2023  
    Version : 1.0.0
